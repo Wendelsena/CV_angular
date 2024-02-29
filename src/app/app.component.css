@@ -1,2 +1,75 @@
 
+.container {
+  margin: 300px;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 18px;
+}
+
+.topbar {
+  background-color: #000B1F;
+  color: #FFF;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+.topbar .title h1 {
+  font-family: "Adamina", serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 40;
+  transform: scaleY(1.8); /* Ajusta a largura horizontal da fonte em 20% */
+  border-bottom: 1px solid #fff; /* Adiciona uma linha branca de 2px de espessura abaixo do título */
+  margin-right: 28%;
+  margin-left: 38%;
+}
+
+.topbar .subtitle h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 20;
+  letter-spacing: 8px;
+  margin-left: 9%;
+}
+
+.sidebar {
+  color: #FFF;
+  position: absolute;
+  left: 24px;
+  top: 50px;
+  width: 200px;
+  height: 100%;
+  background-color: #3D5675;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+.sidebar h3 {
+  border-bottom: 1px solid #fff; /* Adiciona uma linha branca de 2px de espessura abaixo do título */
+  letter-spacing: 2px;
+  font-weight: 20;
+}
+
+.profile {
+  color: rgba(199, 147, 123, 1.0);
+  font-size: 26px;
+}
+.experience {
+  margin-right: -30%;
+  margin-top: 100px;
+  background-color: rgba(199, 147, 123, 1.0); /* cor mais transparente */
+  color: #FFF;
+}
+
+.container h3 {
+  letter-spacing: 2px;
+  margin-left: 1%;
+}
+
+
+
 
