@@ -1,19 +1,29 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .container {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 18px;
   margin: 300px;
   padding: 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 18px;
+  margin-bottom: 0;
 }
 
 .topbar {
-  background-color: #000B1F;
-  color: #FFF;
+  background-color: #000b1f;
+  color: #fff;
   padding: 10px;
   margin: 0;
   text-align: center;
   width: 100%;
-  position:fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -23,53 +33,93 @@
   font-size: 50px;
   letter-spacing: 10px;
   font-weight: 40;
-  transform: scaleY(1.8); /* Ajusta a largura horizontal da fonte em 20% */
-  border-bottom: 1px solid #fff; /* Adiciona uma linha branca de 2px de espessura abaixo do título */
+  transform: scaleY(1.8);
+  border-bottom: 1px solid #fff;
   margin-right: 28%;
   margin-left: 38%;
 }
 
 .topbar .subtitle h2 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 20;
   letter-spacing: 8px;
   margin-left: 9%;
 }
 
+.sidebar .image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
 .sidebar {
-  color: #FFF;
+  color: #fff;
   position: absolute;
-  left: 24px;
-  top: 50px;
-  width: 200px;
+  left: 50px;
+  top: 30px;
+  width: 260px;
   height: 100%;
-  background-color: #3D5675;
+  background-color: #3d5675;
   padding: 20px;
   margin: 0;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  padding-bottom: 160px;
 }
+
 .sidebar h3 {
-  border-bottom: 1px solid #fff; /* Adiciona uma linha branca de 2px de espessura abaixo do título */
+  border-bottom: 1px solid #fff;
   letter-spacing: 2px;
   font-weight: 20;
 }
 
-.profile {
-  color: rgba(199, 147, 123, 1.0);
-  font-size: 26px;
+.contacts {
+  text-align: left 20px;
 }
+
+ul a {
+  color: #ff8000;
+  text-decoration: none;
+}
+
+.education h4,
+.education h5 {
+  margin: 2px 0;
+}
+
+.profile h3 {
+ color: rgba(199, 147, 123, 1);
+}
+
+.profile {
+  text-align: left;
+  padding-left: 500px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  color: rgb(49, 49, 49);
+  font-size: 20px;
+  background-color: bisque;
+  margin-left: -420px;
+}
+
+.experience h3 {
+  margin-right: -40%;
+  padding: 2px;
+  padding-left: 10px;
+  margin-left: 20px;
+  margin-top: 80px;
+  background-color: rgba(199, 147, 123, 1);
+  color: #fff;
+}
+
 .experience {
-  margin-right: -30%;
-  margin-top: 100px;
-  background-color: rgba(199, 147, 123, 1.0); /* cor mais transparente */
-  color: #FFF;
+  font-size: 18px;
+  padding-left: 80px;
+  margin-top: -10px;
+  padding-bottom: 20px;
 }
 
 .container h3 {
   letter-spacing: 2px;
   margin-left: 1%;
 }
-
-
-
-
